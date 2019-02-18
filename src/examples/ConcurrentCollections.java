@@ -1,5 +1,7 @@
 package ch.umb.solutions.curo;
 
+import import java.util.TimeZone;
+import java.util.TimeZone;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -19,6 +21,9 @@ public class ConcurrentCollections {
                 myList.addIfAbsent(i);
             }
         });
+
+        final TimeZone aDefault = TimeZone.;
+
 
         System.out.println(myList.size());
     }
