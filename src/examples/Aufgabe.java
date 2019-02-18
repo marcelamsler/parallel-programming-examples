@@ -1,4 +1,4 @@
-package ch.umb.solutions.curo;
+package examples;
 
 import java.util.stream.IntStream;
 
